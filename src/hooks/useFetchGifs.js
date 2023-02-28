@@ -14,19 +14,19 @@ export const useFetchGifs = ( category ) => {
         //? le introducimos al array la información filtrada en el helper de getGifs.
         setImages(newImages);
         setIsLoading(false);
-    
     }
+
     useEffect( () => {
         getImages();
 
  },[] );
 
   return {
-//! otra manera de devolver.
+//- otra manera de devolver.
 // images: images,
-images,
-
 // isLoading: true,
+
+images,
 isLoading,
 
   }

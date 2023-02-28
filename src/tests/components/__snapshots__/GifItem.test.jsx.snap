@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1.Pruebas en el componente GifItem 1.1. Pruebas contra el snapshop 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Adrian"
+      src="https://adrianrivera.es/"
+    />
+    <p>
+      Adrian
+    </p>
+  </div>
+</div>
+`;
